@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "RepairWise",
+    "slug": "repairwise-app",
+    "version": "1.1.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.repairwise.app",
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+     "plugins": [
+    "expo-notifications",
+    ["expo-image-picker", { "cameraPermission": "Allow RepairWise to use the camera to photograph the damage." }]
+  ],
+    "extra": {
+      "eas": {
+        "projectId": "6b5fe083-65eb-45a0-b7c9-115d9ffd122e"
+      }
+    }
+  }
+}
